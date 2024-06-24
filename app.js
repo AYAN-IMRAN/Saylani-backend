@@ -158,8 +158,35 @@ var mailOptions = {
 			<h1>Welcome to SMIt 🎓!</h1>
 		</div>
 		<div class="content">
-			<p>Dear Student,</p>
+			<p>Dear ${student},</p>
 			<p>This email confirms your enrollment at SMIT! We're excited to have you Saylani Mass It Training.</p>
+			<h2>Student Details:</h2>
+			<table>
+				<tr>
+					<th>Name</th>
+					<td>${student}</td>
+				</tr>
+				<tr>
+					<th>City</th>
+					<td>${stdcity}</td>
+				</tr>
+				<tr>
+					<th>CNIC</th>
+					<td>${stdnumber}</td>
+				</tr>
+				<tr>
+					<th>Email</th>
+					<td>${stdemail}</td>
+				</tr>
+				<tr>
+					<th>Phone Number</th>
+					<td>${stdphone}</td>
+				</tr>
+				<tr>
+					<th>Address</th>
+					<td>${stdaddress}</td>
+				</tr>
+			</table>
 			<h2>Student Alert:</h2>
             <p>Welcome to SMIT! We are absolutely delighted to extend a warm welcome to you as you begin your journey as a new student with us. We hope this letter finds you and your family in good health and high spirits.</p>
 			
